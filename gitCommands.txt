@@ -1,0 +1,37 @@
+# For Clone if you have repo already
+1- git clone YOUR REPO URL
+
+# if you want to create local repo
+2- git init  -> initalize git repository
+
+# add remote
+3- git remote add origin YOUR REPO URL
+# remove remote
+4- git remote add origin YOUR REPO URL
+5- git remote remove
+
+### General Commands
+
+# configurations
+6- git config user.name "Your Name here"
+7- git config user.email "Your email here"
+
+8- git add . (To stage all file)
+9- git add filename ( To Stage selected file)
+
+10- git commit -m "Your message here"
+
+11- git status (To check working tree status)
+12- git log (To check latest commits)
+
+13- git push origin branch name (-u for setting up stream only for main)
+14- git pull origin branch name
+
+## For Branched
+
+15- git checkout -b branch name (To create new branch and checkout)
+16- git checkout branch name (To checkout on existing branch)
+17- git branch (To check all branches' name)
+18- git branch -d branch name (To delete selected branch, Run this command while not in branch which you want to delete)
+19- git branch -D branch name (To perfom hard delete on selected branch, Run this command while not in branch which you want to delete)
+20- git branch -m old-branch-name new-branch-name (To rename branch)
