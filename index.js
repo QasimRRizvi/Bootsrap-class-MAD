@@ -9,3 +9,14 @@ function getFullName(firstName, lastName, middleName="") {
 }
 
 const fullName = getFullName("Qasim", "Rizvi", "Raza");
+
+window.addEventListener("load", function() {
+  setTimeout(function() {
+    document.getElementById("primary-loader").className += " hidden"
+    document.getElementById("main-content").className = "show"
+  }, 1000);
+})
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
